@@ -59,6 +59,7 @@ def create_mimic_dict(filename):
                     words[l[i]] = ['']
                 else:
                     words[l[i]] = [l[i+1]]
+    print(words)
     return words
 
 
